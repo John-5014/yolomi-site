@@ -1,0 +1,388 @@
+#hero {
+  width: 100%;
+  margin-top: -200px;
+}
+/* .img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 70px;
+  max-width: 250px;
+} */
+html::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+/* .first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('../images/hero.jpg');
+} */
+
+#home {
+  transform: translate(-200px, -50px);
+}
+
+#home:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#products {
+  transform: translate(-100px, -10px);
+}
+
+#products:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#shop {
+  transform: translateY(15px);
+}
+
+#shop:hover {
+  cursor: pointer;
+  text-decoration: wavy;
+}
+
+#mouse {
+  transform: translateY(150px);
+}
+
+#pcustomer {
+  transform: translateY(30px);
+}
+
+.head {
+  transform: translateY(20px);
+  color: white;
+}
+
+.menu {
+  text-align: center;
+  float: right;
+}
+
+.wording {
+  text-align: center;
+  transform: translateY(150px);
+  color: white;
+}
+
+.imgy div:hover {
+  cursor: pointer;
+  border: solid 5px rgb(180, 179, 81);
+}
+
+.imgy div {
+  width: 100%;
+  height: initial;
+  padding: 40px;
+  display: block;
+  display: none;
+  flex-flow: column;
+  margin: 10px;
+  background-color: rgb(243, 243, 232);
+}
+
+.imgy {
+  width: 100%;
+  padding: 10px;
+  margin-left: 30%;
+  display: flex;
+}
+
+.images {
+  width: 100%;
+  padding: 10px;
+  margin-left: 30%;
+  display: flex;
+}
+
+.images div:hover {
+  cursor: pointer;
+  border: solid 5px rgb(180, 179, 81);
+}
+
+.images div {
+  width: 100%;
+  height: initial;
+  padding: 40px;
+  display: block;
+  display: none;
+  margin: 10px;
+  background-color: rgb(243, 243, 232);
+}
+
+#child {
+  color: chartreuse;
+  display: none;
+}
+
+#tshirt {
+  width: 100px;
+  height: 100px;
+}
+
+#btn {
+  border: white;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  transform: translate(70px, -17px);
+}
+
+#s-tshirt {
+  transform: translate(-30px, -140px);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#pants {
+  display: flex;
+  flex-wrap: wrap;
+  width: 125px;
+  height: 100px;
+}
+
+#bag {
+  width: 100px;
+  height: 100px;
+}
+
+#bag-name {
+  transform: translate(-30px, -130px);
+}
+
+#jacket {
+  width: 100px;
+  height: 100px;
+}
+
+#shoe {
+  width: 100px;
+  height: 100px;
+}
+
+#tladies {
+  width: 100px;
+  height: 100px;
+}
+
+.column {
+  text-align: center;
+}
+
+.about-us {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: white;
+  word-spacing: 10px;
+  transform: translateY(100px);
+  border: solid white 1px;
+}
+
+#about-image {
+  width: 100%;
+  margin-top: -150px;
+}
+
+body {
+  margin: 10%;
+}
+
+.checkbox {
+  background-color: rgb(172, 161, 104);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#allp:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#allp {
+  float: right;
+  border: 1px solid rgb(163, 42, 6);
+  background-color: rgb(163, 42, 6);
+  transform: translateY(-30PX);
+  color: white;
+  padding: 5px;
+}
+
+#discount {
+  text-align: center;
+  top: -20px;
+  padding: 20px;
+  background-color: grey;
+  background-position: center;
+  transform: translate(0px, );
+  color: whitesmoke;
+}
+
+#twitter {
+  position: absolute;
+  transform: translate(60px, 20px);
+}
+
+.social {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.714);
+  color: white;
+  margin-top: -30px;
+}
+
+.social div {
+  margin-top: 30px;
+}
+
+#copyright {
+  padding: 5px;
+  margin-top: 40px;
+}
+
+#item1 {
+  float: left;
+  transform: translate(-30px, 50px);
+  font-size: 15px;
+}
+
+#cost1 {
+  float: right;
+  transform: translate(20px, 50px);
+  font-size: 15px;
+}
+
+#item2 {
+  float: left;
+  transform: translate(-30px, 50px);
+  font-size: 15px;
+}
+
+#cost2 {
+  float: right;
+  transform: translate(30px, 12px);
+  font-size: 15px;
+}
+
+#item3 {
+  float: left;
+  transform: translate(-30px, 50px);
+  font-size: 15px;
+}
+
+#cost3 {
+  float: right;
+  font-size: 15px;
+  transform: translate(30px, 8px);
+}
+
+#item4 {
+  float: left;
+  font-size: 15px;
+  transform: translate(-30px, 55px);
+}
+
+#cost4 {
+  float: right;
+  font-size: 15px;
+  transform: translate(20px, 10px);
+}
+
+#item5 {
+  float: left;
+  font-size: 15px;
+  transform: translate(-30px, 50px);
+}
+
+#cost5 {
+  float: right;
+  font-size: 15px;
+  transform: translate(25px, 10px);
+}
+
+#item6 {
+  float: left;
+  font-size: 15px;
+  transform: translate(-30px, 50px);
+}
+
+#cost6 {
+  float: right;
+  font-size: 15px;
+  transform: translate(20px, 10px);
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h4::before,
+h4::after {
+  display: inline-block;
+  content: "";
+  width: 8rem;
+  margin: 0 1rem;
+  transform: translateY(-20px);
+}
+
+h3 {
+  line-height: 0.1px;
+  position: relative;
+  margin: 0px 0 0px;
+  background: #FFF;
+  transform: translateX(100px);
+}
+
+h3:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 50%;
+  height: 1px;
+  width: 500px;
+  background: #000;
+  left: 40%;
+  z-index: 1;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+/* @media only screen and (max-width:620px) {
+  .head,
+  .wording,
+  .social,
+  .menu,
+  .imgy,
+  .images,
+  .checkbox,
+  .about-us,
+  .column {
+      width: 100%;
+      height: min-content;
+  }
+} */
+html,body {
+  height:100%;
+    
+}
+
+/* .img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 70px;
+  max-width: 250px;
+}
+.navbar{ 
+  background: none;
+}
+
+.first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('../images/hero.jpg');
+} */
