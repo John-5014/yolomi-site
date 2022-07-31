@@ -1,12 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yolomi Site</title>
+    <title>yolomi</title>
+    <link rel="stylesheet" href="css/stylels.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
+
+<body style="overflow:scroll; overflow-x: hidden;">
+    <header>
+		<nav class="navigation">
+
+			<!-- Logo -->
+			<div class="logo">
+				<h1><img src="images/logo.png"></h1>
+			</div>
+			
+			<!-- Navigation -->
+			<ul class="menu-list">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#"><img src="images/shop.png"></a></li>
+				
+			</ul>
+
+			<div class="humbarger">
+				<div class="bar"></div>
+				<div class="bar2 bar"></div>
+				<div class="bar"></div>
+			</div>
+		</nav>
     
+    <!-- ==== Intro Section Start ==== -->
+		<div class="intro-section" id="home">
+			<div class="bg-img"></div>
+			<div class="intro-content">
+				
+                <h6 style="color: white;">Our clothing, your comfort 
+                </h6>
+                <p style="font-size:18px;color: white;">We understand that you need to look good and feel great.</p>
+                <p style="font-size:20px ; margin-top:-2px;color: white;">It all startswith what you are wearing</p>
+
+				<h6><img src="images/mouse_click.png"></h6>
+				
+				
+				</div>
+				<!-- social media -->
+			</div>
+		</div>	
+	</header>
+    <!-- <div class="head container">
+        <img src="images/logo.png" id="logo">
+        <div class="menu">
+            <img src="images/shop.png" id="shop">
+            <p id="products">products</p>
+            <p id="home">home</p>
+        </div>
+    </div>
+    <div class="wording">
+        <h2>our clothing,
+            <nobr> your comfort</h2>
+        </nobr>
+        <p id="pcustomer">We understand that you need to look good and feel great.<br>It all starts with what you are wearing
+        </p>
+
+        <img id="mouse" src="images/mouse_click.png">
+    </div>
+    <img src="images/hero.jpg" id="hero"> -->
+
+    <div class="checkbox">
+        <div class="column">
+            <input type="checkbox" name="men" class="check-all" id="men">
+            <nobr><label for="">Men</label></nobr>
+
+            <input type="checkbox" name="women" class="check-all" id="women">
+            <nobr><label for="">Women</label></nobr>
+
+            <input type="checkbox" name="Children" class="check-all" id="children">
+            <nobr> <label for="">Children</label></nobr>
+            <p id="child">Coming soon</p>
+        </div>
+        <p id="allp">See all products</p>
+
+    </div>
+    <h3 id="men">MEN</h3>
+    
+    </div>
+    <div class="rows">
+
+        <div class="col-md-6">
+            <div class="imgy">
+                <div>
+                    <input type="button" class="btn-success" id="btn">
+                    <input type="button" class="btn-primary" id="btn">
+                    <input type="button" class="btn-secondary" id="btn">
+
+                    <img src="images/tshirt.png" id="tshirt">
+
+                    <select name="shirt" id="s-tshirt">
+                        <option>SIZE</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option value="size">Small</option>
+                    </select>
+
+                    <p id="item1">T-SHIRT</p>
+                    <nobr>
+                        <P id="cost1">5,00 $</P>
+                    </nobr>
+                </div>
+
+                <div>
+                    <img src="images/pants.png" id="pants">
+                    <select name="shirt" id="s-tshirt">
+                        <option value="select">SIZE</option>
+                        <option value="">Large</option>
+                        <option value="">Medium</option>
+                        <option value="">Small</option>
+                    </select>
+                    <p id="item2">PANTS FORCLAZ</p>
+                    <nobr>
+                        <P id="cost2">30,00 $</P>
+                    </nobr>
+                </div>
+                <div>
+                    <img src="images/backpack.png" id="bag">
+                    <P id="bag-name">10LITRI</P>
+
+                    <p id="item3">BACKPACK</p>
+                    <nobr>
+                        <P id="cost3">60,00 $</P>
+                    </nobr>
+                </div>
+            </div>
+        </div>
+        <h3 id="wom">WOMEN</h3>
+        <div class="col-md-6">
+            
+            <div class="images">
+                <div>
+                    <img src="images/giacket.png" id="jacket">
+                    <select name="shirt" id="s-tshirt">
+                        <option value="select">SIZE</option>
+                        <option value="">Large</option>
+                        <option value="">Medium</option>
+                        <option value="">Small</option>
+                    </select>
+                    <p id="item4">GIACKET</p>
+                    <nobr>
+                        <P id="cost4">60,00 $</P>
+                    </nobr>
+                </div>
+                <div>
+                    <img src="images/trekkingshoes.png" id="shoe">
+                    <select name="shirt" id="s-tshirt">
+                        <option value="select">SIZE</option>
+                        <option value="">Large</option>
+                        <option value="">Medium</option>
+                        <option value="">Small/option>
+                    </select>
+                    <p id="item5">TREKKING SHOES</p>
+                    <nobr>
+                        <P id="cost5">80,00$</P>
+                    </nobr>
+                </div>
+                <div>
+                    <img src="images/tshirt_ladies.png" id="tladies">
+                    <select name="shirt" id="s-tshirt">
+                        <option value="select">SIZE</option>
+                        <option value="">Large</option>
+                        <option value="">Medium</option>
+                        <option value="">Small</option>
+                    </select>
+                    <p id="item6">T-SHIRT</p>
+                    <nobr>
+                        <P id="cost6">20,00 $</P>
+                    </nobr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about-us">
+            <h4>ABOUT US</h4>
+            <p>This is where high-fashion clothing is designed and crafted from the heart by<br> an amazing team of craftsmen and designers who understand what fashion
+                <br>is.
+            </p>
+        </div>
+
+        <img src="images/about.jpg" id="about-image">
+
+
+    </div>
+    <div class="discount">
+
+        <p id="discount"> <span><img src="images/twitter_bird.png" ></span>"SALE:Buy anything for 45% off.Use the promo CODE YOLOMY45 when you buy items."</p>
+    </div>
+    <div class="social">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="yolomi">
+                    <p> WE ARE YOLOMI_WE UNDERSTAND FASHION AND STYLE. WE CRAFT OUR PRODUCTS WITH LOVE AND DILIGENCE.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="">
+                    <p>We are social</p>
+                    <img src="images/g_plus.png " alt="">
+                    <img src="images/facebook.png" alt="">
+                    <img src="images/you_tube.png" alt="">
+                    <img src="images/stumble_upon.png" alt="">
+                    <div>
+                        <img src="images/skype.png" alt="">
+                        <img src="images/flickr.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/pinterest.png" alt="">
+                        <p id="copyright"> COPYRIGHT 2015. YOLOMY INC</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>CREDITS|PRIVACY|CONTACT|ABOUT</p>
+                <P>Yolomi: We Mean Fashion</P>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
