@@ -387,7 +387,11 @@ h3:after{
     padding: 0;
       box-sizing: border-box;
   }
-  
+  header{
+    background-image:url('../images/hero.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   html,body{
     min-width: 100%;
     overflow-x: hidden;
@@ -458,9 +462,7 @@ h3:after{
   .intro-section {
     height: 100vh;
     position: relative;
-   
-    background-repeat: no-repeat;
-    background-size: cover;
+
   }
   
   .intro-section .intro-content {
