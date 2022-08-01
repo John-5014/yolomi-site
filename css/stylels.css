@@ -458,7 +458,7 @@ h3:after{
   .intro-section {
     height: 100vh;
     position: relative;
-    background-image:url('/images/hero.jpg') ;
+   
     background-repeat: no-repeat;
     background-size: cover;
   }
